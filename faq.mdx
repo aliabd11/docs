@@ -1,0 +1,25 @@
+---
+title: FAQ
+description: "Frequently Asked Questions"
+---
+
+## Where are my keys stored?
+
+We use the [GCP KMS](https://cloud.google.com/security/products/security-key-management?hl=en) to securely encrypt your private keys. 
+This includes new accounts created on ok.bet and accounts imported from Polymarket.
+
+## Where are my bridged Solana funds?
+
+If the bridge from USDC on Solana to USDC.e on Polygon failed, it could be for a number of reasons including the Solana wallet provided not having enough SOL to complete the transaction (we try to front that for our users). 
+Note that your funds are never lost though, you can retrieve them at any time by getting your Solana private key using /export.
+
+## What are the fees?
+
+Right now, fees are 2.5% on all buys. No fees are taken on sells.
+
+## I just see "buy" and "sell". Are these market or limit orders?
+
+At the moment, we only support market buys and sells. 
+With Polymarket, technically *all* orders are represented as "limit" orders so market orders are really orders executed at the *best available* price. Note that this may result in less favorable fills on markets that are lower volume.
+
+We plan on supporting explicit limit orders in the future. Stay tuned.
