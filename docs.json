@@ -19,12 +19,7 @@
               "faq",
               "points"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Commands",
-        "groups": [
+          },
           {
             "group": "Commands",
             "pages": [
