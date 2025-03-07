@@ -26,31 +26,25 @@
         "tab": "Commands",
         "groups": [
           {
-            "group": "Command Documentation",
+            "group": "Available commands",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/bet",
-              "api-reference/endpoint/start",
-              "api-reference/endpoint/polymarket",
-              "api-reference/endpoint/trending",
-              "api-reference/endpoint/balance",
-              "api-reference/endpoint/positions",
-              "api-reference/endpoint/sell",
-              "api-reference/endpoint/export",
-              "api-reference/endpoint/deposit",
-              "api-reference/endpoint/points",
-              "api-reference/endpoint/nba",
-              "api-reference/endpoint/nhl",
-              "api-reference/endpoint/sports",
-              "api-reference/endpoint/leaderboards",
-              "api-reference/endpoint/escrow",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/import"
+              "api-reference/commands/bet",
+              "api-reference/commands/start",
+              "api-reference/commands/polymarket",
+              "api-reference/commands/trending",
+              "api-reference/commands/balance",
+              "api-reference/commands/positions",
+              "api-reference/commands/sell",
+              "api-reference/commands/export",
+              "api-reference/commands/deposit",
+              "api-reference/commands/points",
+              "api-reference/commands/nba",
+              "api-reference/commands/nhl",
+              "api-reference/commands/sports",
+              "api-reference/commands/leaderboards",
+              "api-reference/commands/escrow",
+              "api-reference/commands/delete",
+              "api-reference/commands/import"
             ]
           }
         ]
