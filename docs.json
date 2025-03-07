@@ -38,8 +38,7 @@
               "telegram/commands/sports",
               "telegram/commands/leaderboards",
               "telegram/commands/escrow",
-              "telegram/commands/delete",
-              "telegram/commands/import"
+              "telegram/commands/delete"
             ]
           }
         ]
