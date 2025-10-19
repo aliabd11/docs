@@ -17,6 +17,9 @@
             "pages": [
               "introduction",
               "faq",
+              "automations",
+              "terminal",
+              "machine",
               "points",
               "token"
             ]
@@ -25,21 +28,32 @@
             "group": "Commands",
             "pages": [
               "telegram/commands/bet",
+              "telegram/commands/limits",
               "telegram/commands/start",
+              "telegram/commands/home",
+              "telegram/commands/copy",
               "telegram/commands/polymarket",
+              "telegram/commands/kalshi",
               "telegram/commands/trending",
+              "telegram/commands/copy",
               "telegram/commands/balance",
+              "telegram/commands/stats",
               "telegram/commands/positions",
+              "telegram/commands/withdraw",
               "telegram/commands/sell",
               "telegram/commands/export",
               "telegram/commands/deposit",
               "telegram/commands/points",
               "telegram/commands/nba",
               "telegram/commands/nhl",
+              "telegram/commands/nfl",
               "telegram/commands/sports",
               "telegram/commands/leaderboards",
-              "telegram/commands/escrow",
-              "telegram/commands/delete"
+              "telegram/commands/local",
+              "telegram/commands/favorites",
+              "telegram/commands/profile",
+              "telegram/commands/delete",
+              "telegram/commands/invite"
             ]
           }
         ]
