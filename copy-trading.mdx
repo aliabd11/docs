@@ -1,0 +1,37 @@
+---
+title: Copy Trading
+description: "Track wallets and mirror trades automatically"
+---
+
+Copy trading lets you track wallets and automatically mirror their trades. Available on both the web terminal and Telegram bot.
+
+## How it works
+
+1. **Add a wallet** — enter a wallet address or find top traders on the leaderboard.
+2. **Configure settings** — set copy percentage, bet size limits, price ranges, and slippage tolerance.
+3. **Get notified** — receive real-time notifications when tracked traders make a move.
+4. **Auto-copy** — optionally have okbet automatically mirror trades for you.
+
+## Settings per tracked wallet
+
+| Setting | Description |
+| --- | --- |
+| Copy percentage | What % of the trader's bet size to mirror (25%, 50%, 75%, 100%) |
+| Min/max bet | Floor and ceiling for copied trade amounts |
+| Price range | Only copy trades within a price range (e.g., 1%–99%) |
+| Slippage | Max acceptable slippage on copied trades |
+| Notifications | Toggle alerts on/off per wallet |
+| Auto-copy | Enable or disable automatic trade execution |
+
+## Getting started
+
+<Tabs>
+  <Tab title="Telegram Bot">
+    Run `/copy` or `/track` to open the tracking home screen. Add wallets, browse the leaderboard, or configure existing tracked wallets. You can also use agent mode: "hey ok, track @username".
+  </Tab>
+  <Tab title="Web Terminal">
+    Go to the **Track** tab to manage tracked wallets, view copy trade activity, and adjust settings per wallet.
+  </Tab>
+</Tabs>
+
+Trades placed by copy trading show up in your portfolio alongside your manual trades. You can sell copied positions at any time.

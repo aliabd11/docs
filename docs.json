@@ -1,6 +1,6 @@
 {
   "theme": "maple",
-  "name": "ok.bet",
+  "name": "okbet",
   "colors": {
     "primary": "#9A3412",
     "light": "#EA580C",
@@ -13,46 +13,50 @@
         "tab": "Main",
         "groups": [
           {
-            "group": "Documentation",
+            "group": "Getting Started",
             "pages": [
               "introduction",
-              "faq",
-              "agent",
-              "automations",
-              "kalshi",
-              "limitless",
+              "faq"
+            ]
+          },
+          {
+            "group": "Platform",
+            "pages": [
               "terminal",
+              "agent",
+              "copy-trading",
               "machine",
               "points",
               "token"
             ]
           },
           {
-            "group": "Commands",
+            "group": "Markets",
             "pages": [
+              "polymarket",
+              "kalshi",
+              "limitless",
+              "opinion"
+            ]
+          },
+          {
+            "group": "Bot Commands",
+            "pages": [
+              "telegram/introduction",
               "telegram/commands/bet",
               "telegram/commands/limits",
               "telegram/commands/start",
               "telegram/commands/home",
-              "telegram/commands/copy",
-              "telegram/commands/polymarket",
               "telegram/commands/kalshi",
               "telegram/commands/trending",
               "telegram/commands/copy",
               "telegram/commands/balance",
-              "telegram/commands/stats",
-              "telegram/commands/positions",
               "telegram/commands/withdraw",
               "telegram/commands/sell",
               "telegram/commands/export",
               "telegram/commands/deposit",
-              "telegram/commands/points",
-              "telegram/commands/nba",
-              "telegram/commands/nhl",
-              "telegram/commands/nfl",
               "telegram/commands/sports",
               "telegram/commands/leaderboards",
-              "telegram/commands/local",
               "telegram/commands/favorites",
               "telegram/commands/profile",
               "telegram/commands/delete",
@@ -63,8 +67,7 @@
       }
     ],
     "global": {
-      "anchors": [
-      ]
+      "anchors": []
     }
   },
   "logo": {
@@ -72,8 +75,7 @@
     "dark": "/logo/okbet_logo.png"
   },
   "navbar": {
-    "links": [
-    ]
+    "links": []
   },
   "footer": {
     "socials": {

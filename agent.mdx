@@ -1,32 +1,51 @@
 ---
-title: "Agent"
+title: Agent Mode
+description: "Natural language trading with hey ok"
 ---
 
-Introducing "hey ok", just like "hey siri". Internally we call this "agent mode" part of ["The Machine"](machine).
+Say "hey ok" to trade in natural language — like "hey Siri" but for prediction markets. Works in both the Telegram bot and the web terminal.
 
-You can now talk to the bot completely in natural language with "hey ok". Want to get recommendations for markets to bet on?
+The difference between this and other conversational bots is that your critical data is completely sandboxed from the AI. Agent mode never sees your private keys and doesn't hallucinate. It acts as a knowledge router, guiding you to the right action for your query.
 
-The big difference between this and other conversational bots is that your critical data is completely sandboxed from the "AI". Agent mode doesn't ever see your private keys and *doesn't* hallucinate. This is because this was built after we had already built out a comprehensive backend that could handle all sorts of functionality. As a result, it acts more like a knowledge router guiding users to the right command for their query.
+## What you can do
 
-At present, only Polymarket is supported with "hey ok" mode but Kalshi and Limitless support is coming *very soon*.
+**Trade**
+- "hey ok, bet $50 on Trump winning"
+- "hey ok, place a limit order on this market at 45 cents"
+- "hey ok, sell my position"
 
-Examples:
+**Browse markets**
+- "hey ok, show trending markets"
+- "hey ok, search for crypto markets"
+- "hey ok, what NBA games are on today?"
+- "hey ok, what should I bet on?"
 
-- Quickly bet $50 on a specific bet
+**Manage your account**
+- "hey ok, what's my balance?"
+- "hey ok, show my positions"
+- "hey ok, export my keys"
+- "hey ok, I want to deposit"
+
+**Copy trading**
+- "hey ok, track @username"
+- "hey ok, show my tracked wallets"
+- "hey ok, enable copy trading"
+
+**Sports**
+- NBA, NFL, NHL, MLB, EPL, Champions League, La Liga, UFC, Boxing, F1 — just ask.
+
+## Examples
+
+- Quickly bet $50 on a specific market
 
 ![title](/images/hey_ok_2.png)
 
-- Find markets in a specific category that expire tomorrow
+- Find markets in a specific category
 
 ![title](/images/hey_ok_3.png)
 
-- Get recommendations for markets with alpha and one-click bet
+- Get recommendations with one-click betting
 
 ![title](/images/hey_ok_4.png)
 
-... and much much more!
-
-This is a quickly evolving part of our bot and all work here will also be deeply integrated as part of the web app (and other potential platforms) as well.
-
-For feedback on commands, queries or anything else, remember to join our main support chat for help on [Telegram](https://t.me/theokbetvoid).
-
+Agent mode supports all platforms (Polymarket, Kalshi, Limitless, Opinion) and is continuously evolving. For feedback, join [The Void](https://t.me/theokbetvoid) on Telegram.

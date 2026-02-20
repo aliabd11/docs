@@ -5,41 +5,39 @@ description: "Frequently Asked Questions"
 
 ## What is okbet?
 
-okbet is an all-in-one platform that exists on both web through the pro trading terminal and Telegram via the bot for betting on prediction markets. We are the first of our kind for betting on Polymarket and we also offer seamless support for Kalshi (and soon Limitless). This one-stop shop allows users to avoid having to juggle different accounts for different platforms with a professional betting interface for all. 
+okbet is an all-in-one prediction market platform available as a [web trading terminal](https://okbet.trade) and a [Telegram bot](https://t.me/okdotbet_bot). Trade on Polymarket, Kalshi, Limitless and Opinion from a single account — no need to manage separate wallets or logins for each platform.
 
-We default to Polymarket but we also offer support for Kalshi and Limitless.
+## What platforms do you support?
+
+- **Polymarket** (default) — USDC on Polygon
+- **Kalshi** — USDC on Solana, enroll with `/kalshi` or through web settings
+- **Limitless** — USDC on Base
+- **Opinion** — USDT on BNB Chain
 
 ## Where are my keys stored?
 
-We use the [GCP KMS](https://cloud.google.com/security/products/security-key-management?hl=en) to securely encrypt your private keys. 
-This includes new accounts created on ok.bet and accounts imported from Polymarket.
+We use [GCP KMS](https://cloud.google.com/security/products/security-key-management?hl=en) to securely encrypt your private keys. This includes new accounts created on okbet and accounts imported from Polymarket.
 
 ## Where are my bridged Solana funds?
 
-If the bridge from USDC on Solana to USDC.e on Polygon failed, it could be for a number of reasons including the Solana wallet provided not having enough SOL to complete the transaction (we try to front that for our users). 
-Note that your funds are never lost though, you can retrieve them at any time by getting your Solana private key using /export.
+If the bridge from USDC on Solana to USDC.e on Polygon failed, it could be for a number of reasons including the Solana wallet not having enough SOL to complete the transaction (we try to front that for our users). Your funds are never lost — you can retrieve them at any time by exporting your Solana private key using `/export`.
 
 ## What are the fees?
 
-Fees are 100bps (1%) on buys and sells.
+Base fees are 1% on buys and sells. Hold [$OK tokens](/token) to reduce your fees — all the way down to 0% at the top tier.
 
 ## Why did my market order fill at this price?
 
-With Polymarket, technically *all* orders are represented as "limit" orders so market orders are really orders executed at the *best available* price. Note that this may result in less favorable fills on markets that are lower volume.
+On Polymarket, all orders are technically "limit" orders, so market orders execute at the *best available* price. This may result in less favorable fills on lower-volume markets. Use limit orders for more control over your fill price. The same applies to Kalshi and Limitless.
 
-You can create limit orders to have more granular control over where you'd like orders to fill at. Likewise applies with betting on Kalshi and Limitless.
+## I'm getting an allowances or approvals error.
 
-## What is phase two? Phase three?
+Each platform requires a one-time token approval before you can trade. If you see an allowances error, go to **Settings** on either the web terminal or the Telegram bot and enable approvals for the platform you're trying to trade on (Polymarket, Limitless, Opinion, etc.).
 
-- Phase 2 (rolled out throughout Q4)
-  - The pro trading terminal going live to everyone.
-  - The Machine with its full functionality revealed to all users.
-  - Full support for every single notable prediction market in a single app.
-  - ... and more
+## Can I use both the bot and the web terminal?
 
-- Phase 3 [hidden]
-  - This is the final and most exciting phase of okbet. This will be unveiled after a successful execution of phase 2 and will include a heavy emphasis on the "OK" token as well as 'owning' the marketplace. More to be revealed...
+Yes. Your account syncs across both platforms. Place a bet on Telegram, manage it on the web terminal. Set up copy trading on web, get notifications on Telegram.
 
-## I need friends or I want to talk to someone from the team. Where do I go?
+## I need help or want to talk to the team.
 
-The best place to do that is in our biggest clan on Telegram, [The Void](https://t.me/theokbetvoid).
+Visit [tryokbet.com](https://tryokbet.com) or join our community on Telegram: [The Void](https://t.me/theokbetvoid).
