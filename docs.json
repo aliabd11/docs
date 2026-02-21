@@ -48,6 +48,8 @@
               "telegram/commands/start",
               "telegram/commands/home",
               "telegram/commands/kalshi",
+              "telegram/commands/limitless",
+              "telegram/commands/opinion",
               "telegram/commands/trending",
               "telegram/commands/copy",
               "telegram/commands/balance",
